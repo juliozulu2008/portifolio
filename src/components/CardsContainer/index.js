@@ -9,6 +9,7 @@ import CsharpLogo from '../../assets/techs/c.svg';
 import JavaLogo from '../../assets/techs/Java-Logo.png';
 import KotlinLogo from '../../assets/techs/kotlin-hero.svg';
 import AndroidLogo from '../../assets/techs/Android.png';
+import PHPLogo from '../../assets/techs/PHP-logo.svg.png';
 
 export function CardsContainer(){
     return(
@@ -24,6 +25,7 @@ export function CardsContainer(){
                 <Card image={JavaLogo} alt="Logo do Java"/>
                 <Card image={KotlinLogo} alt="Logo do Kotlin"/>
                 <Card image={AndroidLogo} alt="Logo do Android"/>
+                <Card image={PHPLogo} alt="Logo do Php"/>
             </main>
         
         </div>
